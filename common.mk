@@ -74,7 +74,8 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     device/samsung/bcm21553-common/prebuilt/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
-    device/samsung/bcm21553-common/prebuilt/bin/get_macaddrs:system/bin/get_macaddrs \
+    device/samsung/bcm21553-common/prebuilt/bin/get_macaddrs:system/bin/get_macaddrs \    
+    device/samsung/bcm21553-common/prebuilt/lib/libnetutils.so:system/lib/libnetutils.so \
 
 # HGL
 PRODUCT_COPY_FILES += \
